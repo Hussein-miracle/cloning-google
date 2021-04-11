@@ -1,0 +1,66 @@
+body , p{
+    margin:0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 2em;
+}
+a{
+    color: black;
+    text-decoration: none;
+
+}
+a :hover{
+    text-decoration: underline;
+
+}
+nav img{
+    height:20px ;
+}
+main img{
+    height:100px ;
+}
+main{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 6.8em auto;
+    width: 50%;
+}
+input{
+    width: 80%;
+    padding: 1em;
+    border-radius: 25px ;
+    border: 1px solid grey;
+}
+.btn-container{
+    margin-top: 1em  ;
+}
+.btn-container button{
+    padding: 1em;
+    border:none;
+}
+footer{
+    background-color: rgb(128, 128, 128)
+}  
+.footer-top{
+    padding: 1em;
+
+}
+.footer-bottom{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(128, 128, 128);
+}
+.left a {
+    margin-right: 1em;
+}
+.right a{
+    margin-right: 1em;
+}
+
